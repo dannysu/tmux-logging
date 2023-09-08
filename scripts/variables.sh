@@ -14,7 +14,7 @@ default_save_complete_history_key="M-P" # Alt-Shift-p
 save_complete_history_key=$(tmux show-option -gqv "@save-complete-history-key")
 save_complete_history_key=${save_complete_history_key:-$default_save_complete_history_key}
 
-default_clear_history_key="M-c" # Alt-c
+default_clear_history_key="C-l" # Ctrl-l
 clear_history_key=$(tmux show-option -gqv "@clear-history-key")
 clear_history_key=${clear_history_key:-$default_clear_history_key}
 

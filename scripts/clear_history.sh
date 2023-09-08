@@ -7,6 +7,7 @@ source "$CURRENT_DIR/shared.sh"
 
 main() {
 	if supported_tmux_version_ok; then
+    tmux send-keys C-l
 		tmux clear-history
 		display_message "Pane history cleared!"
 	fi
